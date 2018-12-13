@@ -10,6 +10,7 @@ ARM Macro Assembler    Page 1
     3 00000000         ;* Author             : MCD Application Team
     4 00000000         ;* Version            : V3.5.0
     5 00000000         ;* Date               : 11-March-2011
+    6 00000000         ;* Description        : STM32F10x High Density Devices v
                        ector table for MDK-ARM 
     7 00000000         ;*                      toolchain. 
     8 00000000         ;*                      This module performs:
@@ -85,11 +86,11 @@ ARM Macro Assembler    Page 2
    49 00000000         Heap_Mem
                                SPACE            Heap_Size
    50 00000200         __heap_limit
-   51 00000200                 IMPORT           xPortPendSVHandler ;  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-                                                            ï¿½20120521
-   52 00000200                 IMPORT           xPortSysTickHandler ;  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-                                                            ï¿½ï¿½20120521
-   53 00000200                 IMPORT           vPortSVCHandler ;    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+   51 00000200                 IMPORT           xPortPendSVHandler ;  ÄÏÏÂÈýÎåÄ
+                                                            ê20120521
+   52 00000200                 IMPORT           xPortSysTickHandler ;  ÄÏÏÂÈýÎå
+                                                            Äê20120521
+   53 00000200                 IMPORT           vPortSVCHandler ;    ÄÏÏÂÈýÎåÄê
                                                             20120521
    54 00000200         
    55 00000200                 PRESERVE8

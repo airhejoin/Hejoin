@@ -1,0 +1,1317 @@
+Dependencies for Project 'LLW_Project', Target 'Challenge10Sec': (DO NOT MODIFY !)
+F (..\src\main.c)(0x5C109CCA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\src\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\src\.\Lib\common.h)(0x5983D81E)
+I (..\src\.\Lib\compiletime.h)(0x5983D81E)
+I (..\src\.\Lib\function.h)(0x5983D81E)
+I (..\src\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\src\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\src\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\src\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\src\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\src\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\src\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\src\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\src\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\src\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\src\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\src\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\src\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\src\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\src\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\src\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\src\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\src\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\src\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\src\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\src\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\src\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\src\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\TaskKey.c)(0x5C10ADAD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\taskkey.o --omf_browse ..\output\taskkey.crf --depend ..\output\taskkey.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\TaskDisplay.c)(0x5C11BBFC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\taskdisplay.o --omf_browse ..\output\taskdisplay.crf --depend ..\output\taskdisplay.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\src\stm32f10x_it.c)(0x5C10AC3E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
+I (..\src\stm32f10x_it.h)(0x4D99A59E)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\src\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\src\.\Lib\common.h)(0x5983D81E)
+I (..\src\.\Lib\compiletime.h)(0x5983D81E)
+I (..\src\.\Lib\function.h)(0x5983D81E)
+I (..\src\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\src\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\src\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\src\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\src\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\src\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\src\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\src\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\src\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\src\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\src\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\src\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\src\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\src\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\src\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\src\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\src\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\src\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\src\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\src\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\src\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\src\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\src\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\TaskGsm.c)(0x5C10AD86)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\taskgsm.o --omf_browse ..\output\taskgsm.crf --depend ..\output\taskgsm.d)
+I (..\src\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\src\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\src\Lib\common.h)(0x5983D81E)
+I (..\src\Lib\compiletime.h)(0x5983D81E)
+I (..\src\Lib\function.h)(0x5983D81E)
+I (..\src\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\src\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\src\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\src\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (..\src\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\src\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\src\Lib\..\User\Led.h)(0x5983D81E)
+I (..\src\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\src\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\src\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\src\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\src\Lib\..\User\TIM.h)(0x587F197C)
+I (..\src\Lib\..\User\RCC.h)(0x587F1940)
+I (..\src\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\src\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\src\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\src\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\src\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\src\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\src\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\src\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\src\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\src\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\TaskGame.c)(0x5C11BBFC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\taskgame.o --omf_browse ..\output\taskgame.crf --depend ..\output\taskgame.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\Set.c)(0x5C10AC3E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\set.o --omf_browse ..\output\set.crf --depend ..\output\set.d)
+I (..\SRC\.\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (..\SRC\User\Key.c)(0x5BD2CBB7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\key.o --omf_browse ..\output\key.crf --depend ..\output\key.d)
+I (..\SRC\User\Key.h)(0x5BD2D23D)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\SRC\User\Game.c)(0x5C10DB1D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\game.o --omf_browse ..\output\game.crf --depend ..\output\game.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\FRAM\FM24C04.c)(0x5BF286CD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\fm24c04.o --omf_browse ..\output\fm24c04.crf --depend ..\output\fm24c04.d)
+I (..\SRC\FRAM\..\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\FRAM\..\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\FRAM\..\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\FRAM\..\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\FRAM\..\Lib\common.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\function.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\FRAM\..\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\FRAM\..\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (..\SRC\FRAM\..\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\FRAM\..\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\FRAM\..\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\FRAM\..\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\FRAM\..\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\FRAM\..\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\FRAM\..\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\FRAM\..\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\FRAM\..\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\FRAM\..\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\FRAM\..\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\FRAM\..\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\FRAM\..\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\FRAM\..\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\FRAM\..\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\FRAM\..\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\FRAM\..\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\FRAM\..\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\MT\MT_random.c)(0x5983D77A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\mt_random.o --omf_browse ..\output\mt_random.crf --depend ..\output\mt_random.d)
+I (..\SRC\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\HardwareInit.c)(0x5C10DB1C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\hardwareinit.o --omf_browse ..\output\hardwareinit.crf --depend ..\output\hardwareinit.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+I (..\SRC\User\..\WS281X\WS281X.h)(0x5B7D011D)
+F (..\SRC\LCD\TFT32.c)(0x5C10ADD0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\tft32.o --omf_browse ..\output\tft32.crf --depend ..\output\tft32.d)
+I (..\src\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\src\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\src\Lib\common.h)(0x5983D81E)
+I (..\src\Lib\compiletime.h)(0x5983D81E)
+I (..\src\Lib\function.h)(0x5983D81E)
+I (..\src\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\src\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\src\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\src\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (..\src\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\src\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\src\Lib\..\User\Led.h)(0x5983D81E)
+I (..\src\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\src\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\src\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\src\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\src\Lib\..\User\TIM.h)(0x587F197C)
+I (..\src\Lib\..\User\RCC.h)(0x587F1940)
+I (..\src\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\src\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\src\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\src\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\src\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\src\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\src\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\src\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\src\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\src\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\GPIO.c)(0x5BA35D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d)
+I (..\src\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\src\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\src\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\src\Lib\common.h)(0x5983D81E)
+I (..\src\Lib\compiletime.h)(0x5983D81E)
+I (..\src\Lib\function.h)(0x5983D81E)
+I (..\src\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\src\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\src\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\src\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (..\src\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\src\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\src\Lib\..\User\Led.h)(0x5983D81E)
+I (..\src\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\src\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\src\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\src\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\src\Lib\..\User\TIM.h)(0x587F197C)
+I (..\src\Lib\..\User\RCC.h)(0x587F1940)
+I (..\src\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\src\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\src\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\src\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\src\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\src\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\src\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\src\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\src\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\src\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\User\IIC.c)(0x5BEBE74F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\iic.o --omf_browse ..\output\iic.crf --depend ..\output\iic.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\src\User\RCC.c)(0x5983D779)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\rcc.o --omf_browse ..\output\rcc.crf --depend ..\output\rcc.d)
+I (..\src\User\RCC.h)(0x587F1940)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\User\TIM.c)(0x5B977656)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\tim.o --omf_browse ..\output\tim.crf --depend ..\output\tim.d)
+I (..\src\User\Tim.h)(0x587F197C)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\SRC\User\USART.c)(0x5BBDC350)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\src\User\NVIC.c)(0x5C0637C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\nvic.o --omf_browse ..\output\nvic.crf --depend ..\output\nvic.d)
+I (..\src\User\NVIC.h)(0x587F1A0D)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\.\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\.\Lib\common.h)(0x5983D81E)
+I (..\SRC\.\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\.\Lib\function.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\.\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\.\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\.\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\.\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\.\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\.\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\.\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\.\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\.\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\.\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\.\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\.\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\.\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\.\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\.\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\.\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\.\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\.\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\SRC\CRC16\CRC16.c)(0x5983D77A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\crc16.o --omf_browse ..\output\crc16.crf --depend ..\output\crc16.d)
+I (..\SRC\CRC16\..\Lib\includes.h)(0x5C11BC0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\SRC\CRC16\..\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\SRC\CRC16\..\Lib\..\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\queue.h)(0x4FA00020)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\croutine.h)(0x4FA00020)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\semphr.h)(0x4FA00022)
+I (..\SRC\CRC16\..\Lib\..\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+I (..\SRC\CRC16\..\Lib\common.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\compiletime.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\function.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\..\User\FreeRTOSTemplate.h)(0x5C11BBFC)
+I (..\SRC\CRC16\..\Lib\..\User\TripleDes.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\..\W25QXX\W25Q128.h)(0x59DF138A)
+I (..\SRC\CRC16\..\Lib\..\SegDisplay\SegDisplay.h)(0x5B91D676)
+I (..\SRC\.\Lib\includes.h)(0x5C11BC0A)
+I (..\SRC\CRC16\..\Lib\..\LCD\TFT32.h)(0x5BE8E5D2)
+I (..\SRC\CRC16\..\Lib\..\MT\MT_random.h)(0x50AB334E)
+I (..\SRC\CRC16\..\Lib\..\User\Led.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\..\User\USART.h)(0x5B87AB5E)
+I (..\SRC\CRC16\..\Lib\..\User\SPI.h)(0x59DF12B2)
+I (..\SRC\CRC16\..\Lib\..\User\Set.h)(0x5BDFF258)
+I (..\SRC\CRC16\..\Lib\..\User\NVIC.h)(0x587F1A0D)
+I (..\SRC\CRC16\..\Lib\..\User\TIM.h)(0x587F197C)
+I (..\SRC\CRC16\..\Lib\..\User\RCC.h)(0x587F1940)
+I (..\SRC\CRC16\..\Lib\..\User\Key.h)(0x5BD2D23D)
+I (..\SRC\CRC16\..\Lib\..\FRAM\FM24C04.h)(0x5BEE8B3C)
+I (..\SRC\CRC16\..\Lib\..\CRC16\CRC16.h)(0x5983D81E)
+I (..\SRC\CRC16\..\Lib\..\Text\Text.h)(0x58D8D3D8)
+I (..\SRC\CRC16\..\Lib\..\User\HardwareInit.h)(0x5BC0560F)
+I (..\SRC\FRAM\W25Q128.h)(0x58D8717C)
+I (..\SRC\CRC16\..\Lib\..\User\TaskCOM.h)(0x5BBDA9E3)
+I (..\SRC\CRC16\..\Lib\..\User\TaskKey.h)(0x5B2B4E2D)
+I (..\SRC\CRC16\..\Lib\..\User\TaskDisplay.h)(0x5BD2DEF6)
+I (..\SRC\CRC16\..\Lib\..\User\TaskGsm.h)(0x5BC00C0E)
+I (..\SRC\CRC16\..\Lib\..\User\TaskGame.h)(0x59F02690)
+F (..\src\FreeRTOS\Source\list.c)(0x58DB6DF6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\list.o --omf_browse ..\output\list.crf --depend ..\output\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\list.h)(0x4FA00020)
+F (..\src\FreeRTOS\Source\queue.c)(0x58D09008)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\queue.o --omf_browse ..\output\queue.crf --depend ..\output\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\FreeRTOS\Source\include\list.h)(0x4FA00020)
+F (..\src\FreeRTOS\Source\tasks.c)(0x58DCD2D2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\tasks.o --omf_browse ..\output\tasks.crf --depend ..\output\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\FreeRTOS\Source\include\list.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\timers.h)(0x4FA00022)
+I (..\src\FreeRTOS\Source\include\StackMacros.h)(0x4FA00022)
+F (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c)(0x4FA0002A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\port.o --omf_browse ..\output\port.crf --depend ..\output\port.d)
+I (..\src\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\FreeRTOS\Source\include\list.h)(0x4FA00020)
+F (..\src\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x4FA00028)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\heap_2.o --omf_browse ..\output\heap_2.crf --depend ..\output\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\FreeRTOS.h)(0x4FA00020)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\src\FreeRTOS\Source\include\projdefs.h)(0x4FA00020)
+I (..\SRC\FreeRTOSConfig.h)(0x5BA36B21)
+I (..\src\FreeRTOS\Source\include\portable.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x4FA0002A)
+I (..\src\FreeRTOS\Source\include\mpu_wrappers.h)(0x4FA00020)
+I (..\src\FreeRTOS\Source\include\task.h)(0x4F9FF364)
+I (..\src\FreeRTOS\Source\include\list.h)(0x4FA00020)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_exti.o --omf_browse ..\output\stm32f10x_exti.crf --depend ..\output\stm32f10x_exti.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_flash.o --omf_browse ..\output\stm32f10x_flash.crf --depend ..\output\stm32f10x_flash.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_spi.o --omf_browse ..\output\stm32f10x_spi.crf --depend ..\output\stm32f10x_spi.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\SRC\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_i2c.o --omf_browse ..\output\stm32f10x_i2c.crf --depend ..\output\stm32f10x_i2c.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\SRC\STM32Lib\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_dma.o --omf_browse ..\output\stm32f10x_dma.crf --depend ..\output\stm32f10x_dma.d)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x50A06B94)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list ..\list\startup_stm32f10x_hd.lst --xref -o ..\output\startup_stm32f10x_hd.o --depend ..\output\startup_stm32f10x_hd.d)
+F (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x50A5FB0C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\src\STM32Lib\CMSIS\CM3\CoreSupport -I ..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc -I ..\src\Lib -I ..\src\FreeRTOS\Source\include -I ..\src\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\SRC\LCD -I ..\SRC -I ..\SRC\User -I ..\SRC\FRAM-I.\RTE\_Challenge10Sec-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5B768CB6)
+I (..\src\STM32Lib\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\src\STM32Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\SRC\stm32f10x_conf.h)(0x5B2B5350)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5BEE8EAC)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\src\STM32Lib\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
+F (..\src\Application\application.txt)(0x5A4C540B)()

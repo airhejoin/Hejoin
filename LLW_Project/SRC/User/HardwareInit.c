@@ -65,6 +65,7 @@ void  ChipHalInit(void)
 void SystemParaDefault(u8 type)
 {
   u8 i=0;
+  
   for(i=0;i<8;i++)
   {
     System.Insert[0].HighValue=1;

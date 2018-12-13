@@ -74,7 +74,6 @@ void SystemParaDefault(u8 type)
   }
 
 }
-//20181213
 /*************    函数名：ChipOutHalInit           ***************************
 【功能】：其他资源初始化
 【参数】：
